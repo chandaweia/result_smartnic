@@ -1,0 +1,6 @@
+# send by
+# sudo tcpreplay -i enp7s0f0 -l 60 -M 200000 [pcap file]
+# MAX_PKTS = 250k
+sudo tcpreplay -i enp7s0f0 -l 60 -M 200000 factor2.pcap
+sudo tcpreplay -i enp7s0f0 -l 60 -M 100000 factor2.pcap
+sudo tcpreplay -i enp7s0f0 -l 60 -M 10000 factor2.pcap
