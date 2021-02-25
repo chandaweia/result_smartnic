@@ -1,0 +1,2 @@
+update frequency: 10k
+sudo tcpreplay -i enp7s0f0 -l 60 -M 10000 factor1.pcap
